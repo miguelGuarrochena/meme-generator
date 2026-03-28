@@ -1,6 +1,7 @@
 
 import Header from "./components/Header"
 import Main from "./components/Main"
+import { Analytics } from '@vercel/analytics/react';
 import "./index.css"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
      <Header />
      <Main />
+     <Analytics />
     </>
   )
 }
